@@ -45,7 +45,7 @@ body {
 
   /* header */
 header {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     background-color: #579c87;
     text-align: center;
@@ -80,7 +80,7 @@ header {
   }
   
   footer h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 500;
   }
@@ -159,19 +159,19 @@ a {
   .menu1 {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Kalam", cursive, sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: lighter;
   }
   
   .menu1 a {
     background-color: #fcdfdb;
     color: #3c1218;
-    font-family: "Kalam", cursive, sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: lighter;
   }
   
   .menu1 .font1 {
-    font-family: "Devonshire", cursive, sans-serif;
+    font-family: 'Devonshire', cursive;
   }
 
   /* icon */
@@ -187,14 +187,14 @@ a {
 .menu2 {
   background-color: #fff5fe;
   color: #c77412;
-  font-family: "Source Serif Pro", serif, sans-serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 100;
 }
 
 .menu2 a {
   background-color: #fff5fe;
   color: #c77412;
-  font-family: "Source Serif Pro", serif, sans-serif;
+  font-family:'Source Serif Pro', serif;
   font-weight: 100;
 }
 
@@ -202,13 +202,13 @@ a {
 .menu3 {
   background-color: #f9f9f9;
   color: #2b91f8;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 .menu3 a {
   background-color: #f9f9f9;
   color: #2b91f8;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 .menu3 h2 {
@@ -219,13 +219,13 @@ a {
 .menu4 {
   background-color: #fdfffd;
   color: #72bf56;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 .menu4 a {
   background-color: #fdfffd;
   color: #72bf56;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 .menu4 h2 {
@@ -248,7 +248,7 @@ aside {
 
 /* partie loading dots */
 .loading {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
   padding-bottom: 10px;
@@ -346,7 +346,7 @@ aside {
 .page1 {
   background-color: #fcdfdb;
   color: #3c1218;
-  font-family: "Kalam", sans-serif;
+  font-family: 'Kalam', cursive;
   font-weight: lighter;
   padding: 30px 100px 30px 100px;
 }
@@ -360,7 +360,7 @@ aside {
 }
 
 .page1 .font1 {
-  font-family: "Devonshire", cursive,sans-serif;
+  font-family: 'Devonshire', cursive;
   font-size: 2.5em;
 }
 
@@ -368,7 +368,7 @@ aside {
 .page2 {
   background-color: #fff5fe;
   color: #c77412;
-  font-family: "Source Serif Pro", serif, sans-serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   padding: 30px 100px 30px 100px;
 }
@@ -385,7 +385,7 @@ aside {
 .page3 {
   background-color: #f9f9f9;
   color: #2b91f8;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
   padding: 30px 100px 30px 100px;
 }
 
@@ -401,7 +401,7 @@ aside {
 .page4 {
   background-color: #fdfffd;
   color: #72bf56;
-  font-family: "Kalam", cursive, sans-serif;
+  font-family: 'Kalam', cursive;
   padding: 30px 100px 30px 100px;
 }
 
@@ -429,7 +429,7 @@ aside {
 /* Ajout des dégradés de couleurs */
 .degrade1 {
   background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
-  font-family: "Dancing Script", cursive, sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -439,7 +439,7 @@ aside {
 .degrade2 {
   line-height: 70px;
   background-image: linear-gradient(0.25turn, #0431df 30%, #518cf0 50%, #0887fb 20%);
-  font-family: "Dancing Script", sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -448,7 +448,7 @@ aside {
 
 .degrade3 {
   background-image: linear-gradient(0.25turn, #3d9339, #bfff7e);
-  font-family: "Kaushan Script", cursive, sans-serif;
+  font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
   color: transparent;
