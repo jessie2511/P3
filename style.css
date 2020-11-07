@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Devonshire&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Kurale&family=Montserrat:wght@400;500;700&family=Source+Serif+Pro:ital,wght@0,600;1,600&display=swap');
 /*keyframes wiggles */
 @-webkit-keyframes wiggle {
   25% {
@@ -243,13 +241,12 @@ section {
   font-family: 'Devonshire', cursive;
 }
 
-/* Ajout de l'icône note de musique */
+/* icon */
 .icon_music .fas {
   font-size: 2em;
   display: inline-block;
   padding: 5px;
   background-clip: initial;
-  -webkit-background-clip: text;
   color: transparent;
   background-image: -webkit-gradient(linear, left top, right top, from(#f04a5e), to(#f78f6a));
   background-image: linear-gradient(0.25turn, #f04a5e, #f78f6a);
@@ -514,22 +511,22 @@ aside {
 
 /* page 5 */
 .page5 {
-  background-color: #d3ffce;
-  color: black;
+  background-color: #fff5fe;
+  color: #3c1218;
   padding: 20px;
   text-align: left;
 }
 
 .page5 a {
   color: #579c87;
-  text-align: left;
+  text-align: center;
 }
 
 /* Ajout des dégradés de couleurs */
 .degrade1 {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #c77412), color-stop(70%, #905bfd));
   background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
-  font-family: 'Kurale', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -540,7 +537,7 @@ aside {
   line-height: 70px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #0431df), color-stop(50%, #518cf0), color-stop(20%, #0887fb));
   background-image: linear-gradient(0.25turn, #0431df 30%, #518cf0 50%, #0887fb 20%);
-  font-family:  'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -553,7 +550,6 @@ aside {
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
