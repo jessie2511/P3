@@ -551,6 +551,7 @@ aside {
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
   background-clip: initial;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
