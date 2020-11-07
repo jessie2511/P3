@@ -178,14 +178,15 @@ a {
   }
 
   /* icon */
-.icon_music .fas {
-  font-size: 2em;
-  display: inline-block;
-  padding: 5px;
-  background-clip: initial;
-  color: transparent;
-  background-image: linear-gradient(0.25turn, #f04a5e, #f78f6a);
-}
+  .icon_music .fas {
+    font-size: 2em;
+    display: inline-block;
+    padding: 5px;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(0.25turn, #f04a5e, #f78f6a);
+  }
 
   /* Menu 2 */
 .menu2 {
@@ -427,7 +428,7 @@ aside {
 
 .page5 a {
   color: #579c87;
-  text-align: center;
+  text-align: left;
 }
 
 /* Ajout des dégradés de couleurs */
