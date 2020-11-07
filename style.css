@@ -224,6 +224,7 @@ section {
 }
 
 /* Menu 1 */
+/* varaibles menu 1*/
 .menu1 {
   background-color: #fcdfdb;
   color: #3c1218;
@@ -255,6 +256,7 @@ section {
 }
 
 /* Menu 2 */
+/* variables menu 2 */
 .menu2 {
   background-color: #fff5fe;
   color: #c77412;
@@ -270,6 +272,7 @@ section {
 }
 
 /* Menu 3 */
+/* variables menu 3 */
 .menu3 {
   background-color: #f9f9f9;
   color: #2b91f8;
@@ -287,6 +290,7 @@ section {
 }
 
 /* Menu 4 */
+/* variables menu 4 */
 .menu4 {
   background-color: #fdfffd;
   color: #72bf56;
@@ -514,13 +518,13 @@ aside {
 /* page 5 */
 .page5 {
   background-color: #d3ffce;
-  color: #3c1218;
+  color: black;
   padding: 20px;
   text-align: left;
 }
 
 .page5 a {
-  color: #579c87;
+  color: #2B8A3E;
   text-align: left;
 }
 

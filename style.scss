@@ -163,16 +163,20 @@ a {
   }
   
   /* Menu 1 */
+  /* varaibles menu 1*/
+  $BCmenu1: #fcdfdb;
+  $Cmenu1: #3c1218;
+
   .menu1 {
-    background-color: #fcdfdb;
-    color: #3c1218;
+    background-color: $BCmenu1;
+    color: $Cmenu1;
     font-family: 'Kalam', cursive;
     font-weight: lighter;
   }
   
   .menu1 a {
-    background-color: #fcdfdb;
-    color: #3c1218;
+    background-color: $BCmenu1;
+    color: $Cmenu1;
     font-family: 'Kalam', cursive;
     font-weight: lighter;
   }
@@ -193,30 +197,38 @@ a {
   }
 
   /* Menu 2 */
+  /* variables menu 2 */
+  $BCmenu2: #fff5fe;
+  $Cmenu2: #c77412;
+
 .menu2 {
-  background-color: #fff5fe;
-  color: #c77412;
+  background-color: $BCmenu2;
+  color: $Cmenu2;
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
 }
 
 .menu2 a {
-  background-color: #fff5fe;
-  color: #c77412;
+  background-color: $BCmenu2;
+  color: $Cmenu2;
   font-family:'Source Serif Pro', serif;
   font-weight: 100;
 }
 
 /* Menu 3 */
+/* variables menu 3 */
+$BCmenu3: #f9f9f9;
+$Cmenu3: #2b91f8;
+
 .menu3 {
-  background-color: #f9f9f9;
-  color: #2b91f8;
+  background-color: $BCmenu3;
+  color: $Cmenu3;
   font-family: 'Kalam', cursive;
 }
 
 .menu3 a {
-  background-color: #f9f9f9;
-  color: #2b91f8;
+  background-color: $BCmenu3;
+  color: $Cmenu3;
   font-family: 'Kalam', cursive;
 }
 
@@ -225,15 +237,19 @@ a {
 }
 
 /* Menu 4 */
+/* variables menu 4 */
+$BCmenu4: #fdfffd;
+$Cmenu4: #72bf56;
+
 .menu4 {
-  background-color: #fdfffd;
-  color: #72bf56;
+  background-color: $BCmenu4;
+  color: $Cmenu4;
   font-family: 'Kalam', cursive;
 }
 
 .menu4 a {
-  background-color: #fdfffd;
-  color: #72bf56;
+  background-color: $BCmenu4;
+  color: $Cmenu4;
   font-family: 'Kalam', cursive;
 }
 
@@ -353,8 +369,8 @@ aside {
 
 /* page 1 */
 .page1 {
-  background-color: #fcdfdb;
-  color: #3c1218;
+  background-color: $BCmenu1;
+  color: $Cmenu1;
   font-family: 'Kalam', cursive;
   font-weight: lighter;
   padding: 30px 100px 30px 100px;
@@ -375,8 +391,8 @@ aside {
 
 /* page 2 */
 .page2 {
-  background-color: #fff5fe;
-  color: #c77412;
+  background-color: $BCmenu2;
+  color: $Cmenu2;
   font-family: 'Source Serif Pro', serif;
   font-weight: 100;
   padding: 30px 100px 30px 100px;
@@ -392,8 +408,8 @@ aside {
 
 /* page 3 */
 .page3 {
-  background-color: #f9f9f9;
-  color: #2b91f8;
+  background-color: $BCmenu3;
+  color: $Cmenu3;
   font-family: 'Kalam', cursive;
   padding: 30px 100px 30px 100px;
 }
@@ -408,8 +424,8 @@ aside {
 
 /* page 4 */
 .page4 {
-  background-color: #fdfffd;
-  color: #72bf56;
+  background-color: $BCmenu4;
+  color: $Cmenu4;
   font-family: 'Kalam', cursive;
   padding: 30px 100px 30px 100px;
 }
@@ -425,13 +441,13 @@ aside {
 /* page 5 */
 .page5 {
   background-color: #d3ffce;
-  color: #3c1218;
+  color: black;
   padding: 20px;
   text-align: left;
 }
 
 .page5 a {
-  color: $headerfooterbackground-color;
+  color: #2B8A3E;
   text-align: left;
 }
 
