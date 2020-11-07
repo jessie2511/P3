@@ -9,6 +9,19 @@ $fontfam5: 'Dancing script';
 $fontfam6: 'kaushan Script';
 $fontfam7: 'Montserrat';
 
+/* Variables couleurs du header et du footer */
+$headerfooterbackground-color: #579c87;
+$headerfootercolor: #fdcb46;
+
+/* variables des menus*/
+$BCmenu1: #fcdfdb;
+$Cmenu1: #3c1218;
+$BCmenu2: #fff5fe;
+$Cmenu2: #c77412;
+$BCmenu3: #f9f9f9;
+$Cmenu3: #2b91f8;
+$BCmenu4: #fdfffd;
+$Cmenu4: #72bf56;
 
 /*keyframes wiggles */
 @keyframes wiggle {
@@ -53,9 +66,7 @@ body {
   }
 
   /* header */
-  /* variables */
-   $headerfooterbackground-color: #579c87;
-   $headerfootercolor: #fdcb46;
+  
 
 header {
     font-family: $fontfam7, sans-serif;
@@ -103,8 +114,6 @@ header {
   }
 
   
-  
-
   /* animations footer */
 .anim:hover {
     animation: wiggle 150ms infinite ease-in-out;
@@ -172,9 +181,7 @@ a {
   }
   
   /* Menu 1 */
-  /* varaibles menu 1*/
-  $BCmenu1: #fcdfdb;
-  $Cmenu1: #3c1218;
+  
 
   .menu1 {
     background-color: $BCmenu1;
@@ -205,10 +212,8 @@ a {
     background-image: linear-gradient(0.25turn, #f04a5e, #f78f6a);
   }
 
-  /* Menu 2 */
-  /* variables menu 2 */
-  $BCmenu2: #fff5fe;
-  $Cmenu2: #c77412;
+  /* menu 2 */
+  
 
 .menu2 {
   background-color: $BCmenu2;
@@ -225,9 +230,8 @@ a {
 }
 
 /* Menu 3 */
-/* variables menu 3 */
-$BCmenu3: #f9f9f9;
-$Cmenu3: #2b91f8;
+
+
 
 .menu3 {
   background-color: $BCmenu3;
@@ -246,9 +250,8 @@ $Cmenu3: #2b91f8;
 }
 
 /* Menu 4 */
-/* variables menu 4 */
-$BCmenu4: #fdfffd;
-$Cmenu4: #72bf56;
+
+
 
 .menu4 {
   background-color: $BCmenu4;
@@ -267,6 +270,7 @@ $Cmenu4: #72bf56;
 }
 
 /* partie aside */
+
 aside {
   background-color: $headerfooterbackground-color;
   color: $headerfootercolor;
@@ -377,6 +381,7 @@ aside {
 }
 
 /* page 1 */
+
 .page1 {
   background-color: $BCmenu1;
   color: $Cmenu1;
@@ -399,6 +404,7 @@ aside {
 }
 
 /* page 2 */
+
 .page2 {
   background-color: $BCmenu2;
   color: $Cmenu2;
@@ -416,6 +422,7 @@ aside {
 }
 
 /* page 3 */
+
 .page3 {
   background-color: $BCmenu3;
   color: $Cmenu3;
@@ -432,6 +439,7 @@ aside {
 }
 
 /* page 4 */
+
 .page4 {
   background-color: $BCmenu4;
   color: $Cmenu4;
@@ -448,6 +456,7 @@ aside {
 }
 
 /* page 5 */
+
 .page5 {
   background-color: #d3ffce;
   color: black;
@@ -461,6 +470,7 @@ aside {
 }
 
 /* Ajout des dégradés de couleurs */
+
 .degrade1 {
   background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
   font-family: $fontfam5, $fontfam2;
@@ -491,6 +501,7 @@ aside {
 
 /* Ajout soulignage des titres menus et animation */
 /* Divers éléments du border  */
+
 .border {
   display: inline;
   text-decoration: none;
@@ -502,6 +513,7 @@ aside {
 }
 
 /* border page 1 */
+
 .border1 {
   color: #3c1218;
   background: linear-gradient(to top, #f04a5e 0%, #f04a5e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
@@ -509,6 +521,7 @@ aside {
 
 /* border page 2 */
 /* border 1 */
+
 .border2 {
   color: #c77412;
   background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
@@ -550,6 +563,7 @@ aside {
 
 /* responsive */
 /* écrans moins de 720 px */
+
 @media only screen and (max-width: 720px) {
   section {
     width: 260px;
@@ -594,6 +608,7 @@ aside {
 }
 
 /* écrans de plus de 720 px et moins de 1024px */
+
 @media only screen and (max-width: 1024px) and (min-width: 720px) {
   .line {
     width: 30%;
@@ -615,6 +630,7 @@ aside {
 }
 
 /* format landscape */
+
 @media (orientation: landscape) {
   footer {
     margin: auto;
