@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/* Variables font family */
+$fontfam1: 'Kalam';
+$fontfam2: cursive;
+$fontfam3: 'Devonshire';
+$fontfam4: 'Source serif pro';
+$fontfam5: 'Dancing script';
+$fontfam6: 'kaushan Script';
+$fontfam7: 'Montserrat';
+
 
 /*keyframes wiggles */
 @keyframes wiggle {
@@ -49,7 +58,7 @@ body {
    $headerfootercolor: #fdcb46;
 
 header {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fontfam7, sans-serif;
     font-size: 1.3em;
     background-color: $headerfooterbackground-color;
     text-align: center;
@@ -84,7 +93,7 @@ header {
   }
   
   footer h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fontfam7, sans-serif;
     font-size: 1.2em;
     font-weight: 500;
   }
@@ -170,19 +179,19 @@ a {
   .menu1 {
     background-color: $BCmenu1;
     color: $Cmenu1;
-    font-family: 'Kalam', cursive;
+    font-family: $fontfam1, $fontfam2;
     font-weight: lighter;
   }
   
   .menu1 a {
     background-color: $BCmenu1;
     color: $Cmenu1;
-    font-family: 'Kalam', cursive;
+    font-family: $fontfam1, $fontfam2;
     font-weight: lighter;
   }
   
   .menu1 .font1 {
-    font-family: 'Devonshire', cursive;
+    font-family: $fontfam3, $fontfam2;
   }
 
   /* icon */
@@ -204,14 +213,14 @@ a {
 .menu2 {
   background-color: $BCmenu2;
   color: $Cmenu2;
-  font-family: 'Source Serif Pro', serif;
+  font-family: $fontfam4, serif;
   font-weight: 100;
 }
 
 .menu2 a {
   background-color: $BCmenu2;
   color: $Cmenu2;
-  font-family:'Source Serif Pro', serif;
+  font-family: $fontfam4, serif;
   font-weight: 100;
 }
 
@@ -223,13 +232,13 @@ $Cmenu3: #2b91f8;
 .menu3 {
   background-color: $BCmenu3;
   color: $Cmenu3;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
 }
 
 .menu3 a {
   background-color: $BCmenu3;
   color: $Cmenu3;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
 }
 
 .menu3 h2 {
@@ -244,13 +253,13 @@ $Cmenu4: #72bf56;
 .menu4 {
   background-color: $BCmenu4;
   color: $Cmenu4;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
 }
 
 .menu4 a {
   background-color: $BCmenu4;
   color: $Cmenu4;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
 }
 
 .menu4 h2 {
@@ -273,7 +282,7 @@ aside {
 
 /* partie loading dots */
 .loading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fontfam7, sans-serif;
   font-weight: 400;
   font-size: 1.2em;
   padding-bottom: 10px;
@@ -371,7 +380,7 @@ aside {
 .page1 {
   background-color: $BCmenu1;
   color: $Cmenu1;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
   font-weight: lighter;
   padding: 30px 100px 30px 100px;
 }
@@ -385,7 +394,7 @@ aside {
 }
 
 .page1 .font1 {
-  font-family: 'Devonshire', cursive;
+  font-family: $fontfam3, $fontfam2;
   font-size: 2.5em;
 }
 
@@ -393,7 +402,7 @@ aside {
 .page2 {
   background-color: $BCmenu2;
   color: $Cmenu2;
-  font-family: 'Source Serif Pro', serif;
+  font-family: $fontfam4, serif;
   font-weight: 100;
   padding: 30px 100px 30px 100px;
 }
@@ -410,7 +419,7 @@ aside {
 .page3 {
   background-color: $BCmenu3;
   color: $Cmenu3;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
   padding: 30px 100px 30px 100px;
 }
 
@@ -426,7 +435,7 @@ aside {
 .page4 {
   background-color: $BCmenu4;
   color: $Cmenu4;
-  font-family: 'Kalam', cursive;
+  font-family: $fontfam1, $fontfam2;
   padding: 30px 100px 30px 100px;
 }
 
@@ -454,7 +463,7 @@ aside {
 /* Ajout des dégradés de couleurs */
 .degrade1 {
   background-image: linear-gradient(0.25turn, #c77412 30%, #905bfd 70%);
-  font-family: 'Dancing Script', cursive;
+  font-family: $fontfam5, $fontfam2;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -464,7 +473,7 @@ aside {
 .degrade2 {
   line-height: 70px;
   background-image: linear-gradient(0.25turn, #0431df 30%, #518cf0 50%, #0887fb 20%);
-  font-family: 'Dancing Script', cursive;
+  font-family: $fontfam5, $fontfam2;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -473,7 +482,7 @@ aside {
 
 .degrade3 {
   background-image: linear-gradient(0.25turn, #3d9339, #bfff7e);
-  font-family: 'Kaushan Script', cursive;
+  font-family: $fontfam6, $fontfam2;
   font-size: 2.5em;
   background-clip: initial;
   -webkit-background-clip: text;
