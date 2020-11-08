@@ -56,20 +56,22 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+     h1 {
+      color: $headerfootercolor;
+      font-size: 2em;
+      font-weight: bold;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
   }
   
-  header h1 {
-    color: $headerfootercolor;
-    font-size: 2em;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
+  
   
   /* footer */
   footer {
+    
     margin: auto;
     height: 60px;
     background-color: $headerfooterbackground-color;
@@ -80,17 +82,18 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-between;
+     h2 {
+      font-family: $fontfam7, sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+    
+     .contact {
+      padding: 0px 30px 0px 30px;
+    }
   }
   
-  footer h2 {
-    font-family: $fontfam7, sans-serif;
-    font-size: 1.2em;
-    font-weight: 500;
-  }
   
-  footer .contact {
-    padding: 0px 30px 0px 30px;
-  }
 
   
   /* animations footer */
@@ -152,12 +155,13 @@ a {
     transform: scale(0.8);
     opacity: 1;
     transition: transform 300ms ease-in-out;
+    &:hover {
+      transform: scale(1);
+      opacity: 0.3;
+    }
   }
   
-  .zoom:hover {
-    transform: scale(1);
-    opacity: 0.3;
-  }
+  
   
   /* Menu 1 */
   
@@ -167,18 +171,18 @@ a {
     color: $Cmenu1;
     font-family: $fontfam1, $fontfam2;
     font-weight: lighter;
+     a {
+      background-color: $BCmenu1;
+      color: $Cmenu1;
+      font-family: $fontfam1, $fontfam2;
+      font-weight: lighter;
+    }
+     .font1 {
+      font-family: $fontfam3, $fontfam2;
+    }
   }
   
-  .menu1 a {
-    background-color: $BCmenu1;
-    color: $Cmenu1;
-    font-family: $fontfam1, $fontfam2;
-    font-weight: lighter;
-  }
   
-  .menu1 .font1 {
-    font-family: $fontfam3, $fontfam2;
-  }
 
   /* icon */
   .icon_music .fas {
@@ -199,14 +203,15 @@ a {
   color: $Cmenu2;
   font-family: $fontfam4, serif;
   font-weight: 100;
+   a {
+    background-color: $BCmenu2;
+    color: $Cmenu2;
+    font-family: $fontfam4, serif;
+    font-weight: 100;
+  }
 }
 
-.menu2 a {
-  background-color: $BCmenu2;
-  color: $Cmenu2;
-  font-family: $fontfam4, serif;
-  font-weight: 100;
-}
+
 
 /* Menu 3 */
 
@@ -216,17 +221,18 @@ a {
   background-color: $BCmenu3;
   color: $Cmenu3;
   font-family: $fontfam1, $fontfam2;
+   a {
+    background-color: $BCmenu3;
+    color: $Cmenu3;
+    font-family: $fontfam1, $fontfam2;
+  }
+  
+   h2 {
+    font-weight: 300;
+  }
 }
 
-.menu3 a {
-  background-color: $BCmenu3;
-  color: $Cmenu3;
-  font-family: $fontfam1, $fontfam2;
-}
 
-.menu3 h2 {
-  font-weight: 300;
-}
 
 /* Menu 4 */
 
@@ -236,17 +242,18 @@ a {
   background-color: $BCmenu4;
   color: $Cmenu4;
   font-family: $fontfam1, $fontfam2;
+   a {
+    background-color: $BCmenu4;
+    color: $Cmenu4;
+    font-family: $fontfam1, $fontfam2;
+  }
+  
+   h2 {
+    font-weight: 300;
+  }
+  
 }
 
-.menu4 a {
-  background-color: $BCmenu4;
-  color: $Cmenu4;
-  font-family: $fontfam1, $fontfam2;
-}
-
-.menu4 h2 {
-  font-weight: 300;
-}
 
 /* partie aside */
 
@@ -269,21 +276,22 @@ aside {
   font-weight: 400;
   font-size: 1.2em;
   padding-bottom: 10px;
+   span {
+    display: inline-block;
+            animation: dots 3s infinite ease-in-out;
+    font-size: 2em;
+  }
+  
+   .point2 {
+      animation-delay: 0.5s;
+  }
+  
+   .point3 {
+      animation-delay: 0.9s;
+  }
 }
 
-.loading span {
-  display: inline-block;
-          animation: dots 3s infinite ease-in-out;
-  font-size: 2em;
-}
 
-.loading .point2 {
-    animation-delay: 0.5s;
-}
-
-.loading .point3 {
-    animation-delay: 0.9s;
-}
 
 /* Divers éléments des pages menus  */
 .title {
@@ -367,20 +375,21 @@ aside {
   font-family: $fontfam1, $fontfam2;
   font-weight: lighter;
   padding: 30px 100px 30px 100px;
+   h2 {
+    font-weight: 400;
+  }
+  
+   .price {
+    font-weight: bold;
+  }
+  
+   .font1 {
+    font-family: $fontfam3, $fontfam2;
+    font-size: 2.5em;
+  }
 }
 
-.page1 h2 {
-  font-weight: 400;
-}
 
-.page1 .price {
-  font-weight: bold;
-}
-
-.page1 .font1 {
-  font-family: $fontfam3, $fontfam2;
-  font-size: 2.5em;
-}
 
 /* page 2 */
 
@@ -390,15 +399,16 @@ aside {
   font-family: $fontfam4, serif;
   font-weight: 100;
   padding: 30px 100px 30px 100px;
+   #color2 {
+    color: #a56799;
+  }
+  
+   #color3 {
+    color: #6e4ccc;
+  }
+  
 }
 
-.page2 #color2 {
-  color: #a56799;
-}
-
-.page2 #color3 {
-  color: #6e4ccc;
-}
 
 /* page 3 */
 
@@ -407,15 +417,16 @@ aside {
   color: $Cmenu3;
   font-family: $fontfam1, $fontfam2;
   padding: 30px 100px 30px 100px;
+   h2 {
+    font-weight: 400;
+  }
+  
+   .font_color_pages {
+    color: #000000;
+  }
 }
 
-.page3 h2 {
-  font-weight: 400;
-}
 
-.page3 .font_color_pages {
-  color: #000000;
-}
 
 /* page 4 */
 
@@ -424,15 +435,16 @@ aside {
   color: $Cmenu4;
   font-family: $fontfam1, $fontfam2;
   padding: 30px 100px 30px 100px;
+   h2 {
+    font-weight: 400;
+  }
+  
+   .font_color_pages {
+    color: #000000;
+  }
+  
 }
 
-.page4 h2 {
-  font-weight: 400;
-}
-
-.page4 .font_color_pages {
-  color: #000000;
-}
 
 /* page 5 */
 
@@ -441,12 +453,13 @@ aside {
   color: black;
   padding: 20px;
   text-align: left;
+   a {
+    color: #2B8A3E;
+    text-align: left;
+  }
 }
 
-.page5 a {
-  color: #2B8A3E;
-  text-align: left;
-}
+
 
 /* Ajout des dégradés de couleurs */
 
@@ -485,11 +498,12 @@ aside {
   display: inline;
   text-decoration: none;
   transition: background-size 0.5s;
+  &:hover {
+    background-size: 100% 100%;
+  }
+  
 }
 
-.border:hover {
-  background-size: 100% 100%;
-}
 
 /* border page 1 */
 
@@ -611,7 +625,8 @@ aside {
 /* format landscape */
 
 @media (orientation: landscape) {
-  footer {
+  footer{
+  
     margin: auto;
     height: 60px;
     background-color: $headerfooterbackground-color;
@@ -622,6 +637,7 @@ aside {
     display: flex;
     justify-content: space-between;
   }
+
 }
 
 
